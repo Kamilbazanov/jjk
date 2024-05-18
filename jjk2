@@ -1,0 +1,23 @@
+ 
+#include<stdio.h>
+
+int Calculte_Square(int Number);
+ 
+int main()
+{
+  int number, Square;
+ 
+  printf(" \n Please Enter any integer Value : ");
+  scanf("%d", &number);
+  
+  Square = Calculte_Square(number);
+  
+  printf("\n Square of a given number %d  =  %d", number, Square); 
+ 
+  return 0;
+}
+
+int Calculte_Square(int Number)
+{
+	return Number * Number;
+}
